@@ -1,0 +1,124 @@
+.main_section-1 {
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    background-image: url(.././././../img/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 37%;
+
+    h1 {
+        width: 315px;
+        height: 57px;
+        flex-grow: 0;
+        margin: 280px 0 34px 5px;
+        transform: rotate(-0.23deg);
+        text-transform: uppercase;
+        text-shadow: 0 2px 3px $color-black;
+        /* font-family: RobotoSlab;*/
+        font-size: 30px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: normal;
+        text-align: center;
+        color: $color-white;
+
+        @media (min-width: 768px) {
+            font-size: 75px;
+            width: 100%;
+            height: initial;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 100px;
+            margin-bottom: initial;
+            margin-top: 600px;
+
+
+        }
+    }
+
+    h2 {
+        width: 243px;
+        height: 16px;
+        padding: 5px 0px;
+        flex-grow: 0;
+        margin: 34px 43px 34px 34px;
+        transform: rotate(-0.20deg);
+        /*font-family: Roboto;*/
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 1.19;
+        text-align: center;
+        color: $color-white;
+
+        @media (min-width: 768px) {
+            font-size: 24px;
+            width: 300px;
+            height: initial;
+        }
+
+        @media (min-width: 1200px) {
+            font-size: 24px;
+            width: 100%;
+        }
+    }
+
+
+    .main_section-1__div-menu {
+        background-color: $color-bright-orange ;
+        width: 37px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+
+        img {
+            width: 13px;
+            height: 11px;
+        }
+    }
+
+    .main_section-1__div-text {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 100%;
+        align-items: center;
+
+
+    }
+
+    /* .main_section-1__div-hero img {
+        height: 100vh;
+        z-index: -1;
+        position: absolute;
+        top: 0px;
+    }*/
+
+    .main_section-1__div-arrow {
+        background-color: white;
+        width: 38px;
+        height: 36px;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* position: relative; */
+        margin: 0 auto;
+
+        img {
+            width: 17px;
+            height: 10px;
+        }
+    }
+}
