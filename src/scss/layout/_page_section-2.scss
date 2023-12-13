@@ -33,6 +33,7 @@
     h1 {
         font-family: $font-roboto_slab;
         font-size: 2.3rem;
+        text-transform: capitalize;
 
         @media (min-width: 768px) {
             font-size: 3.2rem;
