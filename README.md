@@ -1,125 +1,91 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+![modulo-1-evaluacion-final-crodriguez1992] (http://beta.adalab.es/modulo-1-evaluacion-final-crodriguez1992/)
 
-# Adalab web starter kit
+# modulo-1-evaluacion-final-crodriguez1992
 
-Ahoy! Este es nuestro Starter Kit creado en **node y vite**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+## Description
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+This project is a responsive website layout exercise using **node y vite** and **"mobile first"**, It is built using HTML and SCSS, providing a clean and responsive design for easy customization. 
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+In the project we have used adalab's started Kit, which includes an HTML template engine, the SASS preprocessor and a local server and many other things. 
 
-- Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos (excepto este README.md, para describir tu proyecto).
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `public/`, que tiene fichero estáticos como imágenes, fuentes, favicon, librerías de JavaScript antiguas (jQuery, ...)
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
+This Kit helps us to work more comfortably, since it automates tasks.
 
-## Guía de inicio rápido
+In the Kit there are 3 types of files and folders:
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) con una versión superior a la 14 para trabajar con este Starter Kit:
+- The files that are loose in the repository root, such as vite.config.js, package.json.... They are the configuration of the project and we don't need to modify them (except this README.md, to describe your project).
+- The `src/` folder: are the files of our web page, like HTML, CSS, JS...
+- The `public/` folder, that has static files like images, fonts, favicon, old JavaScript libraries (jQuery, ...)
+- And the `docs/` folder, which is automatically generated when we start the project. Kit reads the files inside `src/` and `public/`, processes them and generates them inside `public/` and `docs/`.
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+## Table of Contents
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos** que comienzan por un punto.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+- Quick Start Guide
+- Installation
+- Usage
+- Deployment
+- Proyect structure
+- License
 
-```bash
-npm install
-```
+## Quick Start Guide
 
-### Pasos para arrancar el proyecto:
+> **NOTE:** You need to have [Node JS](https://nodejs.org/) installed with a version higher than 14 to work with Adalab Starter Kit.
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+## Installation
 
-```bash
-npm run dev
-```
+To get started with this project, follow these steps:
 
-Este comando:
-
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS. Por ejemplo:
-   - Convierte los ficheros SASS en CSS.
-   - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
-
-Después de ejecutar `npm run dev` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
-
-### Pasos para publicar el proyecto en GitHub Pages:
-
-Para generar tu página para producción ejecuta el comando:
+1. Clone the repository to your local machine:
 
 ```bash
-npm run build
+
+git clone https://github.com/your-username/project-name.git
 ```
 
-Y a continuación:
+2. Open the project folder in your preferred code editor.
 
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
-
-Además, los comandos:
+3. Run a local development server (you can use tools like Live Server or any other server of your choice).
 
 ```bash
-npm run push-docs
+npm install  
+npm start
 ```
-o
+
+## Usage
+
+After the installation, open the project in your browser and navigate through the sections to explore the content. 
+
+The website is designed to be responsive, providing a seamless experience across different devices such us mobile, tablet and desktop. 
+
+The size of the elements has been adapted using rem units instead of px, for example in font size and margin, which ensures better responsiveness and adaptability to various devices.
+
+## Deployment
+
+To deploy this proyect, please use the command bellow:
 
 ```bash
 npm run deploy
 ```
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
-<!--
-## Flujo de archivos con Gulp
-
-Estas tareas de Gulp producen el siguiente flujo de archivos:
-
-![Gulp flow](./gulp-flow.png)
-
-## `gulpfile.js` y `config.json`
-
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
-
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
--->
-## Estructura de carpetas
+## Proyect structure
 
 La estructura de carpetas tiene esta pinta:
 
 ```
 src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
+ ├─ js 
+ |  └─ main.js
  ├─ scss
  |  ├─ components
  |  ├─ core
  |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
+ |  └─ partials
+ ├─ images
+ |  └─ logo.jpg
+ └─ js 
+    └─ main.js
+
 ```
 
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-<!--
-## Vídeotutoriales del Starter kit
+## Licence
 
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
--->
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+This project is licensed under the **MIT License**. Feel free to use, modify, and distribute the code for your projects. Make sure to check the license for more details.
