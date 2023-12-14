@@ -87,29 +87,16 @@
         position: relative;
         bottom: 6rem;
 
+        p:hover {
+            font-size: 2.5rem;
+            transition: all 1s;
+        }
+
         @media (min-width: 1220px) {
             bottom: 10rem;
         }
 
     }
 
-
-    &__div-arrow {
-        background-color: white;
-        width: 3.5rem;
-        height: 3.5rem;
-        border-radius: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        bottom: 3rem;
-        margin: 0 auto;
-
-        @media (min-width: 1220px) {
-            bottom: 6rem;
-        }
-
-    }
 
 }

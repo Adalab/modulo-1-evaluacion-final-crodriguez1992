@@ -73,6 +73,11 @@
         justify-content: center;
         align-items: center;
 
+        p:hover {
+            font-size: 2.5rem;
+            transition: all 1s;
+        }
+
         @media (min-width: 768px) {
             font-size: 2.1rem;
             width: 15rem;
