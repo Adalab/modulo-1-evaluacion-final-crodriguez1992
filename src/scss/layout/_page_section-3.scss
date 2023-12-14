@@ -7,6 +7,9 @@
         height: 50vh;
     }
 
+    @media (min-width: 1220px) {
+        height: 45vh;
+    }
 
 
     h1 {
@@ -54,12 +57,12 @@
                 @media (min-width: 768px) {
                     font-size: 2.125rem;
                 }
-
             }
 
             p {
                 font-family: $font-roboto;
                 font-size: 1.8rem;
+                margin-top: 0.1rem;
 
                 @media (min-width: 768px) {
                     font-size: 2rem;
@@ -104,7 +107,7 @@
         margin: 0 auto;
 
         @media (min-width: 1220px) {
-            bottom: 3.5rem;
+            bottom: 6rem;
         }
 
     }
