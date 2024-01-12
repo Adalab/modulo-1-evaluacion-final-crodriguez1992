@@ -24,6 +24,7 @@ In the Kit there are 3 types of files and folders:
 - Usage
 - Deployment
 - Proyect structure
+- Screenshots
 - License
 
 ## Quick Start Guide
@@ -68,7 +69,7 @@ npm run deploy
 
 ## Proyect structure
 
-La estructura de carpetas tiene esta pinta:
+Please find folder structure below:
 
 ```
 src
@@ -85,6 +86,25 @@ src
     └─ main.js
 
 ```
+##Screenshots
+
+####Mobile version
+
+![Alt text](image.png)
+![Alt text](image-2.png)
+![Alt text](image-3.png)
+![Alt text](image-4.png)
+
+####Tablet version
+
+![Alt text](image-5.png)
+![Alt text](image-6.png)
+![Alt text](image-7.png)
+
+####Desktop version
+
+![Alt text](image-8.png)
+![Alt text](image-9.png)
 
 ## Licence
 
